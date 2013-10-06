@@ -43,7 +43,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/bin/thermald:system/bin/thermald \
     vendor/asus/flo/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/asus/flo/proprietary/bin/usbhub_init:system/bin/usbhub_init \
+    vendor/asus/flo/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/asus/flo/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
+    vendor/asus/flo/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
+    vendor/asus/flo/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
+    vendor/asus/flo/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
+    vendor/asus/flo/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
+    vendor/asus/flo/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
     vendor/asus/flo/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/asus/flo/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/asus/flo/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
@@ -58,7 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/asus/flo/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/asus/flo/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/asus/flo/proprietary/lib/hw/camera.flo.so:system/lib/hw/camera.flo.so \
+    vendor/asus/flo/proprietary/lib/hw/camera.deb.so:system/lib/hw/camera.deb.so \
     vendor/asus/flo/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/asus/flo/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/asus/flo/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
@@ -117,6 +123,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/asus/flo/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/asus/flo/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
+    vendor/asus/flo/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+    vendor/asus/flo/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/asus/flo/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
     vendor/asus/flo/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/asus/flo/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
