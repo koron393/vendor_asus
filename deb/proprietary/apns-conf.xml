@@ -5091,6 +5091,16 @@
       authtype="3"
   />
 
+  <apn carrier="hi-ho LTE typeD"
+      mcc="440"
+      mnc="10"
+      apn="vmobile.jp"
+      user="lte@hi-ho"
+      password="hi-ho"
+      type="default,supl"
+      authtype="3"
+  />
+
   <apn carrier="b-mobile アマゾン"
       mcc="440"
       mnc="10"
