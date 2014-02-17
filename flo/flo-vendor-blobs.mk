@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/asus/flo/proprietary/bin/mm-qjpeg-enc-test:system/bin/mm-qjpeg-enc-test \
     vendor/asus/flo/proprietary/bin/mm-qomx-ienc-test:system/bin/mm-qomx-ienc-test \
-    vendor/asus/flo/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/asus/flo/proprietary/bin/mpdecision:system/bin/mpdecision_bck \
     vendor/asus/flo/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/asus/flo/proprietary/bin/nl_listener:system/bin/nl_listener \
     vendor/asus/flo/proprietary/bin/port-bridge:system/bin/port-bridge \
@@ -39,7 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/bin/radish:system/bin/radish \
     vendor/asus/flo/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/asus/flo/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/asus/flo/proprietary/bin/thermald:system/bin/thermald \
+    vendor/asus/flo/proprietary/bin/thermald:system/bin/thermald_bck \
     vendor/asus/flo/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/asus/flo/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/asus/flo/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
