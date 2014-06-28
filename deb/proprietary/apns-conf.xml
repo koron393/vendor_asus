@@ -5091,16 +5091,6 @@
       authtype="3"
   />
 
-  <apn carrier="hi-ho LTE typeD"
-      mcc="440"
-      mnc="10"
-      apn="vmobile.jp"
-      user="lte@hi-ho"
-      password="hi-ho"
-      type="default,supl"
-      authtype="3"
-  />
-
   <apn carrier="b-mobile アマゾン"
       mcc="440"
       mnc="10"
@@ -9362,6 +9352,15 @@
       mnc="004"
       apn="VZWADMIN"
       type="fota"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Verizon Wireless"
+      mcc="311"
+      mnc="480"
+      apn="VZWIMS"
+      type="ia"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
   />
