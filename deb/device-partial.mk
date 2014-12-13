@@ -12,8 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_STEM := deb/BoardConfigPartial.mk
+# Asus blob(s) necessary for Deb hardware
+PRODUCT_COPY_FILES := \
+    vendor/asus/deb/proprietary/apns-conf.xml:system/etc/apns-conf.xml:asus \
+    vendor/asus/deb/proprietary/libacdbdata.so:system/lib/libacdbdata.so:asus \
+    vendor/asus/deb/proprietary/libAKM.so:system/lib/libAKM.so:asus \
 
--include vendor/asus/$(LOCAL_STEM)
--include vendor/broadcom/$(LOCAL_STEM)
--include vendor/qcom/$(LOCAL_STEM)

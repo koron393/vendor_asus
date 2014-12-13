@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_STEM := deb/BoardConfigPartial.mk
+LOCAL_STEM := deb/device-partial.mk
 
--include vendor/asus/$(LOCAL_STEM)
--include vendor/broadcom/$(LOCAL_STEM)
--include vendor/qcom/$(LOCAL_STEM)
+$(call inherit-product-if-exists, vendor/asus/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/broadcom/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/qcom/$(LOCAL_STEM))
