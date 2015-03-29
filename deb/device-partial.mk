@@ -15,4 +15,4 @@
 # Asus blob(s) necessary for Deb hardware
 PRODUCT_COPY_FILES := \
     vendor/asus/deb/proprietary/libacdbdata.so:system/lib/libacdbdata.so:asus \
-    vendor/asus/deb/proprietary/libAKM.so:system/lib/libAKM.so:asus \
+    vendor/asus/deb/proprietary/libAKM.so:system/lib/libAKM.so:asus
