@@ -42,11 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/deb/proprietary/bin/thermald:system/bin/thermald \
     vendor/asus/deb/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/asus/deb/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    vendor/asus/deb/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
-    vendor/asus/deb/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
-    vendor/asus/deb/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
-    vendor/asus/deb/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
-    vendor/asus/deb/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
+    vendor/asus/deb/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     vendor/asus/deb/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/asus/deb/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/asus/deb/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
@@ -54,8 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/deb/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/asus/deb/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/asus/deb/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/asus/deb/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
-    vendor/asus/deb/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
     vendor/asus/deb/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/asus/deb/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/asus/deb/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -97,6 +91,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/deb/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/asus/deb/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/asus/deb/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/asus/deb/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/asus/deb/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/asus/deb/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/asus/deb/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
@@ -129,6 +124,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/deb/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/asus/deb/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/asus/deb/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
+    vendor/asus/deb/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/asus/deb/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/asus/deb/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/asus/deb/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
@@ -182,7 +178,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/deb/proprietary/vendor/firmware/wcnss.b04:system/vendor/firmware/wcnss.b04 \
     vendor/asus/deb/proprietary/vendor/firmware/wcnss.b05:system/vendor/firmware/wcnss.b05 \
     vendor/asus/deb/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt \
+    vendor/asus/deb/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/asus/deb/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/asus/deb/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
     vendor/asus/deb/proprietary/vendor/lib/libgemini.so:system/vendor/lib/libgemini.so \
     vendor/asus/deb/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/asus/deb/proprietary/vendor/lib/libimage-jpeg-enc-omx-comp.so:system/vendor/lib/libimage-jpeg-enc-omx-comp.so \
@@ -208,8 +206,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/deb/proprietary/vendor/lib/libmmstillomx.so:system/vendor/lib/libmmstillomx.so \
     vendor/asus/deb/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/asus/deb/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/asus/deb/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/asus/deb/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/asus/deb/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/asus/deb/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/asus/deb/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so
+    vendor/asus/deb/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/asus/deb/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so

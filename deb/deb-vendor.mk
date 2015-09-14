@@ -29,12 +29,4 @@ PRODUCT_COPY_FILES := \
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/asus/deb/overlay
 
-# Widevine proprietary-blobs
-PRODUCT_COPY_FILES := \
-    vendor/asus/deb/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/asus/deb/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
-    vendor/asus/deb/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/asus/deb/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/asus/deb/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so
-
-#$(call inherit-product, vendor/asus/deb/deb-vendor-blobs.mk)
+$(call inherit-product, vendor/asus/deb/deb-vendor-blobs.mk)
